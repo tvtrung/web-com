@@ -27,7 +27,7 @@ const Job = (data: any) => {
           advanced_skill: j.advanced_skill,
           benefit: j.benefit,
           url: j.url,
-          is_recruiting:j.is_recruiting,
+          is_recruiting: j.is_recruiting,
           onClick: (e?: React.MouseEvent<HTMLElement>) => {
             e?.preventDefault();
             Router.push(j.url);
